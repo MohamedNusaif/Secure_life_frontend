@@ -1,37 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SecureLife Insurance PLC — CRM Frontend
 
-## Getting Started
+A modern, responsive web application for SecureLife Insurance PLC's Customer Relationship Management (CRM) system.
 
-First, run the development server:
+The frontend provides both the public-facing insurance website and the internal CRM dashboard used by management and insurance advisors.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Project Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+SecureLife Insurance PLC is a life insurance company offering:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Individual life insurance
+- Family protection plans
+- Savings-linked policies
+- Critical illness coverage
 
-## Learn More
+This application provides a digital platform where customers can explore insurance plans and submit inquiries, while internal staff can manage leads, advisors, insurance plans, and customer follow-ups.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Public Website
 
-## Deploy on Vercel
+- Responsive landing page
+- Company introduction
+- Insurance plan overview
+- Basic, Gold and Premium plans
+- Plan benefits
+- Coverage information
+- Eligibility criteria
+- "Get a Free Quote" form
+- "Talk to an Advisor" form
+- Responsive navigation
+- Modern UI
+- Smooth animations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### CRM Dashboard
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# Secure_life_frontend" 
+- Dashboard overview
+- Lead management
+- Lead sheet
+- Lead status tracking
+- Advisor management
+- Advisor details
+- Advisor workload tracking
+- Assigned leads
+- Insurance plan management
+- User authentication
+- Role-based access
+- Responsive dashboard
+
+### Advisor Management
+
+Administrators can:
+
+- Create advisors
+- View advisors
+- View advisor details
+- Update advisor information
+- Activate/deactivate advisors
+- View assigned leads
+- Monitor advisor lead capacity
+- Track advisor performance
+
+### Lead Management
+
+The CRM supports the following lead workflow:
+
+```text
+NEW
+ ↓
+ASSIGNED
+ ↓
+CONTACTED
+ ↓
+QUALIFIED
+ ↓
+PROPOSAL
+ ↓
+CONVERTED
